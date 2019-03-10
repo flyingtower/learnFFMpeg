@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6AC8A4B32233EA0D005520D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8A4B22233EA0D005520D7 /* main.cpp */; };
+		6AC8A4F22233F17C005520D7 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BA2233EB40005520D7 /* libavcodec.a */; };
+		6AC8A4F32233F17C005520D7 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BB2233EB40005520D7 /* libavdevice.a */; };
+		6AC8A4F42233F17C005520D7 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BC2233EB40005520D7 /* libavfilter.a */; };
+		6AC8A4F52233F17C005520D7 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BD2233EB40005520D7 /* libavformat.a */; };
+		6AC8A4F62233F17C005520D7 /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BE2233EB40005520D7 /* libavresample.a */; };
+		6AC8A4F72233F17C005520D7 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4BF2233EB40005520D7 /* libavutil.a */; };
+		6AC8A4F82233F17C005520D7 /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4C02233EB40005520D7 /* libpostproc.a */; };
+		6AC8A4F92233F17C005520D7 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4C12233EB40005520D7 /* libswresample.a */; };
+		6AC8A4FA2233F17C005520D7 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8A4C22233EB40005520D7 /* libswscale.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,16 @@
 /* Begin PBXFileReference section */
 		6AC8A4AF2233EA0D005520D7 /* myLive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myLive; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC8A4B22233EA0D005520D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6AC8A4BA2233EB40005520D7 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavcodec.a; sourceTree = "<group>"; };
+		6AC8A4BB2233EB40005520D7 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavdevice.a; sourceTree = "<group>"; };
+		6AC8A4BC2233EB40005520D7 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavfilter.a; sourceTree = "<group>"; };
+		6AC8A4BD2233EB40005520D7 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavformat.a; sourceTree = "<group>"; };
+		6AC8A4BE2233EB40005520D7 /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavresample.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavresample.a; sourceTree = "<group>"; };
+		6AC8A4BF2233EB40005520D7 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libavutil.a; sourceTree = "<group>"; };
+		6AC8A4C02233EB40005520D7 /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpostproc.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libpostproc.a; sourceTree = "<group>"; };
+		6AC8A4C12233EB40005520D7 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libswresample.a; sourceTree = "<group>"; };
+		6AC8A4C22233EB40005520D7 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../usr/local/Cellar/ffmpeg/3.2.2/lib/libswscale.a; sourceTree = "<group>"; };
+		6AC8A4FB223400B4005520D7 /* av_public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = av_public.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC8A4F22233F17C005520D7 /* libavcodec.a in Frameworks */,
+				6AC8A4F32233F17C005520D7 /* libavdevice.a in Frameworks */,
+				6AC8A4F42233F17C005520D7 /* libavfilter.a in Frameworks */,
+				6AC8A4F52233F17C005520D7 /* libavformat.a in Frameworks */,
+				6AC8A4F62233F17C005520D7 /* libavresample.a in Frameworks */,
+				6AC8A4F72233F17C005520D7 /* libavutil.a in Frameworks */,
+				6AC8A4F82233F17C005520D7 /* libpostproc.a in Frameworks */,
+				6AC8A4F92233F17C005520D7 /* libswresample.a in Frameworks */,
+				6AC8A4FA2233F17C005520D7 /* libswscale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +71,7 @@
 			children = (
 				6AC8A4B12233EA0D005520D7 /* myLive */,
 				6AC8A4B02233EA0D005520D7 /* Products */,
+				6AC8A4B92233EB40005520D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +87,25 @@
 			isa = PBXGroup;
 			children = (
 				6AC8A4B22233EA0D005520D7 /* main.cpp */,
+				6AC8A4FB223400B4005520D7 /* av_public.h */,
 			);
 			path = myLive;
+			sourceTree = "<group>";
+		};
+		6AC8A4B92233EB40005520D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8A4BA2233EB40005520D7 /* libavcodec.a */,
+				6AC8A4BB2233EB40005520D7 /* libavdevice.a */,
+				6AC8A4BC2233EB40005520D7 /* libavfilter.a */,
+				6AC8A4BD2233EB40005520D7 /* libavformat.a */,
+				6AC8A4BE2233EB40005520D7 /* libavresample.a */,
+				6AC8A4BF2233EB40005520D7 /* libavutil.a */,
+				6AC8A4C02233EB40005520D7 /* libpostproc.a */,
+				6AC8A4C12233EB40005520D7 /* libswresample.a */,
+				6AC8A4C22233EB40005520D7 /* libswscale.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +262,12 @@
 		6AC8A4B72233EA0D005520D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/3.2.2/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/ffmpeg/3.2.2/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +275,12 @@
 		6AC8A4B82233EA0D005520D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/ffmpeg/3.2.2/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/ffmpeg/3.2.2/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +304,7 @@
 				6AC8A4B82233EA0D005520D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
